@@ -1,23 +1,81 @@
-# G2B5_RJS_GradedAssignment3
-Movies Application
-Movies on the Tip is an online movie manager whose responsibility is to take care of all the activities a user can do on this portal. 
+# ReactJS Learning Projects
 
- User Stories
-1. As a user I should be able to search the movies type:-
-    - coming soon
-    - Movies in theaters
-    - top rated Indian
-    - top rated movies
-2. As a user I should be able to see all the movie's basic information (poster, title) in the selected options
-3. As a user I should be able to see the details of the movie if I select the movie.
-4. As a user I should be able to add the movie to the favorite list by clicking on the favorite button
-5. As a user I should get the option to view my favorite list.
-6. As a user I should be able to remove a movie from the favorite list.
+This repository contains two React-based applications built as part of a ReactJS learning and assignment journey. Together, they demonstrate practical front-end development concepts such as component-based design, state management, routing, API integration, and responsive UI implementation.
 
- Instructions
-1. The JSON data is provided along with the problem statement as a data.json file and the corresponding images are present in the img folder, however, you can use a third-party free API as well to get the data.
-2. You can choose the UI color combination/buttons and other props of your own choice.
-3. Follow the correct naming conventions and folder structure.
-4. UI should be responsive, and display proper messages of the operations wherever required.
-5. A sample project working demonstration is attached for your reference, however, you can be innovative and create the project in different template structure.
-6. You are required to submit the screen recording of the working project, the recorded video will also be a criterion to calculate the final marks. You can attach a drive link of the video along with the solution in a separate text file. Make the drive link public. 
+## Projects Included
+
+### 1. Expense Tracker (TypeScript)
+The Expense Tracker application helps users manage personal expenses in a simple and intuitive way. Users can add new expense entries, view a list of expenses, and see a summary of their spending.
+
+Key features:
+- Add new expense items
+- Display expenses in a structured list
+- Show a summary of totals
+- Use a mock backend for data persistence
+
+Technologies used:
+- React
+- TypeScript
+- Bootstrap
+- JSON Server
+
+### 2. Movie Application
+The Movie Application is a responsive movie browsing interface that allows users to explore different movie categories and view details for selected titles. It includes a navigation experience for browsing popular movie sections and managing favorites.
+
+Key features:
+- Browse movie categories such as coming soon, movies in theaters, and top-rated options
+- View movie cards with essential information
+- Open detailed movie views
+- Add or remove movies from a favorites list
+
+Technologies used:
+- React
+- React Router
+- React Icons
+- Toast notifications
+- JSON Server
+
+## Repository Structure
+
+- expense-tracker-typeScript/
+  - client/ - React frontend for the expense tracker
+  - server/ - mock API server using JSON Server
+- movie-application-reactjs/
+  - client/ - React frontend for the movie application
+  - server/ - mock API server using JSON Server
+
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed on your machine:
+- Node.js
+- npm
+
+### Run the Expense Tracker
+1. Open a terminal and navigate to the server folder:
+   - cd expense-tracker-typeScript/server
+   - npm install
+   - npm start
+2. Open a second terminal and start the client:
+   - cd expense-tracker-typeScript/client
+   - npm install
+   - npm start
+3. The frontend should open in your browser, typically at http://localhost:3000.
+
+### Run the Movie Application
+1. Open a terminal and navigate to the server folder:
+   - cd movie-application-reactjs/server
+   - npm install
+   - npm start
+2. Open a second terminal and start the client:
+   - cd movie-application-reactjs/client
+   - npm install
+   - npm start
+3. The frontend should open in your browser, typically at http://localhost:3000.
+
+## Notes
+- Each project uses its own local mock server, so both the client and server need to be started separately.
+- If port 3000 is already in use, React will prompt you to use another available port.
+
+## Summary
+This repository is a small collection of React applications that showcase practical UI development skills and modern front-end practices. It is suitable for learning, reviewing project structure, and understanding how React applications can be organized across separate client and server folders.
